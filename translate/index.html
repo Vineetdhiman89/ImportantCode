@@ -5,7 +5,7 @@
 </head>
 <body ng-controller="MainController">
 
-    <select ng-change="update(language)" ng-model="language" ng-options="lang for lang in languages">
+    <select data-test="dummy" ng-change="update(language)" ng-model="language" ng-options="lang for lang in languages">
         <option value="">-- language --</option>
     </select>
 
